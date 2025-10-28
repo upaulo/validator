@@ -1,0 +1,23 @@
+{
+	"name": "validator",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "npx vite --open",
+		"build": "vite build",
+		"lint": "eslint ./src",
+		"stylelint": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
+	},
+	"dependencies": {
+		"validator": "^13.11.0"
+	},
+	"devDependencies": {
+		"vite": "^7.1.7",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.28.1",
+		"stylelint": "^15.10.3",
+		"stylelint-config-idiomatic-order": "^9.0.0",
+		"stylelint-config-standard": "^34.0.0"
+	}
+}
